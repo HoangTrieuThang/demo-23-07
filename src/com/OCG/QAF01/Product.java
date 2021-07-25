@@ -49,6 +49,10 @@ public class Product {
         this.quantity = quantity;
     }
 
+    public void payment(){
+
+    }
+
     @Override
     public String toString() {
         return "{Variant='" + variant + '\'' +

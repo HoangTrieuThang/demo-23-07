@@ -3,7 +3,7 @@ package com.OCG.QAF01;
 
 import java.util.*;
 
-public class Main {
+public class MainProducts {
 
 
     public static void main(String[] args) {
@@ -28,16 +28,17 @@ public class Main {
         //San pham co san trong gio hang
         productInCart.put("POLARIZED FISHING GLASSES", product0);
         //add them 3 san pham
-        productInCart.put("TWO PIECE SWIMSUIT", product1);
-        productInCart.put("RISEADO SEXY PUSH UP BIKINIS", product2);
-        productInCart.put("SEXY SOLID BIKINI SET", product3);
+//        productInCart.put("TWO PIECE SWIMSUIT", product1);
+//        productInCart.put("RISEADO SEXY PUSH UP BIKINIS", product2);
+//        productInCart.put("SEXY SOLID BIKINI SET", product3);
+        product0.setQuantity(product0.quantity+3);
         // Giam so luong gio hang con 2
         productInCart.remove("SEXY SOLID BIKINI SET");
         productInCart.remove("TWO PIECE SWIMSUIT");
         productInCart.remove("SHIRT");
         //them moi san pham khac
         productInCart.put("SHIRT", product4);
-//        productInCart.put("HIRIGIN SEXY THONG BIKINI SET", product5);
+        productInCart.put("HIRIGIN SEXY THONG BIKINI SET", product5);
 
 
         if (productInCart.isEmpty()){
